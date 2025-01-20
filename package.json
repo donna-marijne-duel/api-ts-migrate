@@ -1,0 +1,28 @@
+{
+  "name": "api-ts-migrate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "api-ts-migrate": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "ts-migrate-plugins": "^0.1.35",
+    "ts-migrate-server": "^0.1.33",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "@types/json-schema": "^7.0.15",
+    "@types/node": "^22.10.7"
+  }
+}
