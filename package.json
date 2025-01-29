@@ -19,10 +19,12 @@
     "ts-migrate-plugins": "^0.1.35",
     "ts-migrate-server": "^0.1.33",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.3"
+    "typescript": "^5.7.3",
+    "updatable-log": "^0.2.0"
   },
   "devDependencies": {
     "@types/json-schema": "^7.0.15",
-    "@types/node": "^22.10.7"
+    "@types/node": "^22.10.7",
+    "prettier": "^3.4.2"
   }
 }
